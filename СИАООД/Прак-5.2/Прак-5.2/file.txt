@@ -1,0 +1,10 @@
+10021082 Family Imya Otchestvo Adress
+10003048 Petrov Ivan Klimovich Moscow
+10001529 Goryachkovski Dan Gorshkov Chechnya
+10014898 Badoff Sergey Pirovich Gimalayi
+10010153 Hokov Maxim Terentbev Mtishi
+10011438 Mironova Dasha Chikatilova Pushkina
+10000526 Deryabin Emilb Nikolaevich Kolotushkina
+10011924 Chernov Otkuda Vsyalsov Obshaga
+10021824 Chertova Kamila Danilovna Alabuga
+10028989 Kashina Anastasiya Prikolovna Ceni

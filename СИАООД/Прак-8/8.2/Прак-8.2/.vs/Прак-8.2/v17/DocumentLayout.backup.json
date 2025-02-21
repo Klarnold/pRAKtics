@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\\u041F\u0440\u0430\u043A-8\\8.2\\\u041F\u0440\u0430\u043A-8.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A73604-CF71-448F-A7B3-12F954EDF756}|\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.vcxproj|C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\\u041F\u0440\u0430\u043A-8\\8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08A73604-CF71-448F-A7B3-12F954EDF756}|\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.vcxproj|solutionrelative:\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
+              "ViewState": "AgIAAEsIAAAAAAAAAAAlwGAIAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T18:22:17.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u041F\u0440\u0430\u043A-8.2.cpp",
+              "DocumentMoniker": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\\u041F\u0440\u0430\u043A-8\\8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp",
+              "RelativeDocumentMoniker": "\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp",
+              "ToolTip": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\\u041F\u0440\u0430\u043A-8\\8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp",
+              "RelativeToolTip": "\u041F\u0440\u0430\u043A-8.2\\\u041F\u0440\u0430\u043A-8.2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T15:31:14.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

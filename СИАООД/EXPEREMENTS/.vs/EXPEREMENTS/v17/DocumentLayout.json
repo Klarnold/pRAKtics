@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\EXPEREMENTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02030A2B-7EDE-4F84-897B-48768A755A7A}|EXPEREMENTS\\EXPEREMENTS.vcxproj|C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\EXPEREMENTS\\EXPEREMENTS\\EXPEREMENTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02030A2B-7EDE-4F84-897B-48768A755A7A}|EXPEREMENTS\\EXPEREMENTS.vcxproj|solutionrelative:EXPEREMENTS\\EXPEREMENTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EXPEREMENTS.cpp",
+              "DocumentMoniker": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\EXPEREMENTS\\EXPEREMENTS\\EXPEREMENTS.cpp",
+              "RelativeDocumentMoniker": "EXPEREMENTS\\EXPEREMENTS.cpp",
+              "ToolTip": "C:\\Users\\Den\\Desktop\\\u0421\u0418\u0410\u041E\u041E\u0414\\EXPEREMENTS\\EXPEREMENTS\\EXPEREMENTS.cpp",
+              "RelativeToolTip": "EXPEREMENTS\\EXPEREMENTS.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-16T15:38:42.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿  Leaf.cpp
+C:\Users\Den\Desktop\СИАООД\Прак-7\Прак_7\Прак_7\Leaf.cpp(41,1): warning C4715: Leaf::search: значение возвращается не при всех путях выполнения
+  Прак_7.vcxproj -> C:\Users\Den\Desktop\СИАООД\Прак-7\Прак_7\x64\Debug\Прак_7.exe

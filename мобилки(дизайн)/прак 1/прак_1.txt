@@ -1,0 +1,8 @@
+PMF - Project market fit
+0. Тема -> Исследование -> Конкуренты -> Паттерны
+1. Сегмент
+2. Проблема
+3. Basic features
+4. Killer feature
+BZG - business to government
+BZB - business to business

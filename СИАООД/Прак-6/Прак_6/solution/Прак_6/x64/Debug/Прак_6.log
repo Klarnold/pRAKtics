@@ -1,0 +1,7 @@
+﻿  Прак_6.cpp
+C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\Прак_6\Прак_6.cpp(12,36): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\Прак_6\Прак_6.cpp(155,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\Прак_6\Прак_6.cpp(158,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\Прак_6\Прак_6.cpp(198,36): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\Прак_6\Прак_6.cpp(58,1): warning C4715: hashClass::search: значение возвращается не при всех путях выполнения
+  Прак_6.vcxproj -> C:\Users\Den\Desktop\СИАООД\Прак-6\Прак_6\solution\x64\Debug\Прак_6.exe
