@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Устанавливаем имя файла для сохранения данных
+output_file="system_info.txt"
+
+# Получаем текущую дату и время
+current_datetime=$(date '+%Y-%m-%d %H:%M:%S')
+
+# Получаем список зарегистрированных пользователей
+user_list=$(who)
+
+# Получаем время работы системы (uptime)
+system_uptime=$(uptime -p)
+
+# Создаем или очищаем файл, если он существует
+> "$output_file"
+
+# Записываем информацию в файл
+echo "Дата и время: $current_datetime" >> "$output_file"
+echo "" >> "$output_file"
+echo "Список зарегистрированных пользователей:" >> "$output_file"
+echo "$user_list" >> "$output_file"
+echo "" >> "$output_file"
+echo "Время работы системы: $system_uptime" >> "$output_file"
+
+# Выводим информацию на экран
+cat "$output_file"
