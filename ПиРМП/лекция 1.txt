@@ -1,0 +1,42 @@
+Java (с нуля не делаем уже 5 лет)
+основным языком является Kotlin
+htpps://developer.andriod.com/stackoverflow.com
+Вся литература из-во O'Rielli
+
+2-а способа:
+1) Делаем приложение на основе View (UI разметка)
+2) Jetpack Conpose (Декларативное) - Kotlin
+
+Каждой версии Andriod => API SDK
+1) Empty Activity => Compose (не подходит)
+2) Empty Views Activity (выбираем его)
+
+Сборщик (gradle, maven)
+Andriod - Gradle
+(избегать кириллицу любой ценой)
+
+intelij IDEA Андроид SDK)
+Иметь физ. устройство!
+Для выполнения практик достаточно эмулятора
+Multitouch
+
+при подключении к телефону
+найти номер сборик (build number - нажать 7 раз и откроется режим разработчика)
+потом идёт к developer option
+
+Material Design (для всех приложений Google)
+
+TextView - строковый ресурс (можно редачить элемнты: нажать на элемент, и спрва будет область с атрибутами)
+комбинация
+
+"OnClick!" - это EventListener
+
+dp, sp для шрифтов
+Density-independent Pixels
+ANR - 
+Log.d("RRR", "onDestroy")
+
+Процесс
+В рамках приложения может быть несколько потоков
+________________
+Павел Валерьевич
