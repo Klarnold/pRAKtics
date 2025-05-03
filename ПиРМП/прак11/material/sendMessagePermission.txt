@@ -1,0 +1,21 @@
+import android.Manifest
+private static final int REQUEST_CODE = 100;
+        createNotificationChannel();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            requestPermissions(
+                    new String[]{Manifest.permission.POST_NOTIFICATIONS},
+                    REQUEST_CODE
+            );
+        }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(this, "Уведомления разрешены!", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Уведомления запрещены!", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
