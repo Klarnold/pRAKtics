@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">prac10</string>
+    <string name="edit_text">Имя</string>
+    <string name="set_name">Сохранить</string>
+    <string name="get_name">Получить</string>
+    <string name="delete_name">Удалить</string>
+    <string name="name_view">Текущее имя: </string>
+</resources>
