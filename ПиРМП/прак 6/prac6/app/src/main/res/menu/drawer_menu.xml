@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="God-ish" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Handsome" />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Fearless" />
+    <item
+        android:id="@+id/nav_next_activity"
+        android:title="Next page" />
+</menu>
+
