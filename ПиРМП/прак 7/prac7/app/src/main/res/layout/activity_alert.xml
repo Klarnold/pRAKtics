@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="25dp"
+    tools:context=".AlertActivity">
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:text="Alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:text="DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:text="TimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:text="Custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/allert_dialog"
+        android:name="com.example.prac7.DialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fragment
+        android:id="@+id/date_picker_dialog"
+        android:name="com.example.prac7.DialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fragment
+        android:id="@+id/time_picker_dialog"
+        android:name="com.example.prac7.DialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <fragment
+        android:id="@+id/custom_dialog"
+        android:name="com.example.prac7.DialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

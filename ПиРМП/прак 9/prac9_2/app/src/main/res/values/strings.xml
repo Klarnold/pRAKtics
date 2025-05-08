@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">prac9_1</string>
+    <string name="file_name">file name</string>
+    <string name="file_input_data">text</string>
+    <string name="save_button">Сохранить</string>
+    <string name="add_button">Добавить информацию в файл</string>
+    <string name="read_button">Прочитать</string>
+    <string name="delete_button">Удалить</string>
+    <string name="file_data">Содержимое файла</string>
+</resources>

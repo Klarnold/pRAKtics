@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/progressiveThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать последовательные задачи" />
+    <Button
+        android:id="@+id/parallelThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Начать параллельные задачи"/>
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загрузить изображение"/>
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first"/>
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second"/>
+    <TextView
+        android:id="@+id/thirdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="third"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+</LinearLayout>
+
