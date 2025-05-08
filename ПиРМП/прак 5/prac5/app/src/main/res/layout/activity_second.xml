@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".SecondActivity">
+    <TableRow>
+    <EditText
+        android:id="@+id/newVariety"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/add"
+        android:text="+"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/remove"
+        android:text="-"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+    </TableRow>
+    <ListView
+        android:id="@+id/my_list_view"
+        android:choiceMode="multipleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</TableLayout>

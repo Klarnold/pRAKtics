@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Практика 3</string>
+    <string name="nextBtn">Следующий</string>
+    <string name="previousBtn">Предыдущий</string>
+</resources>
