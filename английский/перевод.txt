@@ -1,5 +1,30 @@
-3 листа
-1 - название статьи, автор, abstract, introduction
-2 - отрывок на 5000 тыщ букв из основной части
-3 - conclusion, references, ещё ссылку написать на статью
-(можно ещё свой лист с переводами слов взять, на 3-ёх листах выше наичего писать/переводить ytkmpz)
+relevance - актуальность
+examine - исследовать
+findings - полученне данные
+reference data - справочные данные
+godot - Годо
+clues - улики
+realm - измерение
+in-house - собственный
+for instance - например
+standalone - отдельный
+designed - разработан
+fully-fledged - полноценный
+over the years - с годами
+rendering - отрисовка
+prime example - яркий пример
+is driven by - продиктовано
+derived - полученный
+dataset - набор данных
+expound - излагать
+facilitate - содействовать
+incorporation - включение
+implications - последствия
+substantial - существенный
+publisher-owned and individual websites - веб-сайты, принадлежащие издателям, и индивидуальные веб-сайты
+subsequently - впоследствии
+ambiguous - двусмысленный
+snapshot - кадр
+RSS feed - RSS-канал
+regarding- относительно
+third-party - третьесторонний
