@@ -1,0 +1,175 @@
+
+
+CREATE TABLE app_user (
+  id_app_user serial NOT NULL PRIMARY KEY,
+  personal_data text NOT NULL
+);
+
+
+CREATE TABLE support_chat (
+  id_support_chat serial NOT NULL PRIMARY KEY,
+  id_app_user integer NOT NULL,
+  id_employee integer NOT NULL
+);
+
+
+CREATE TABLE transaction (
+  id_transaction serial NOT NULL PRIMARY KEY,
+  id_app_user integer NOT NULL,
+  sum smallint NOT NULL,
+  status smallint NOT NULL
+);
+
+
+CREATE TABLE course_request (
+  id_course_request serial NOT NULL PRIMARY KEY,
+  id_course integer NOT NULL,
+  id_request integer NOT NULL
+);
+
+
+CREATE TABLE consultation_request (
+  id_consultation_request serial NOT NULL PRIMARY KEY,
+  id_request integer NOT NULL,
+  id_consultation integer NOT NULL,
+  count smallint NOT NULL
+);
+
+
+CREATE TABLE request_loyalty_card (
+  id_request_loyalty_card serial NOT NULL PRIMARY KEY,
+  id_request integer NOT NULL,
+  id_loyalty_card integer NOT NULL
+);
+
+
+CREATE TABLE post (
+  id_post serial NOT NULL PRIMARY KEY,
+  access_level smallint NOT NULL
+);
+
+
+CREATE TABLE consultation (
+  id_consultation bigint NOT NULL PRIMARY KEY,
+  data date NOT NULL,
+  duration time NOT NULL,
+  name varchar(50) NOT NULL
+);
+
+
+CREATE TABLE request (
+  id_request serial NOT NULL PRIMARY KEY,
+  id_app_user integer NOT NULL,
+  id_transaction integer NOT NULL,
+  description text NOT NULL
+);
+
+
+CREATE TABLE loyalty_card (
+  id_loyalty_card serial NOT NULL PRIMARY KEY,
+  id_app_user integer NOT NULL,
+  loyalty_card_level smallint NOT NULL,
+  description text NOT NULL
+);
+
+
+CREATE TABLE user_course (
+  id_user_course serial NOT NULL PRIMARY KEY,
+  id_course integer NOT NULL,
+  id_app_user integer NOT NULL
+);
+
+
+CREATE TABLE message (
+  id_message serial NOT NULL PRIMARY KEY,
+  id_support_chat integer NOT NULL,
+  text text NOT NULL
+);
+
+
+CREATE TABLE employee (
+  id_employee serial NOT NULL PRIMARY KEY,
+  id_post integer NOT NULL,
+  registration_data date NOT NULL,
+  personal_data text NOT NULL
+);
+
+
+CREATE TABLE employee_course (
+  id_employee_course serial NOT NULL PRIMARY KEY,
+  id_employee integer NOT NULL,
+  id_course integer NOT NULL,
+  count smallint NOT NULL
+);
+
+
+CREATE TABLE course (
+  id_course serial NOT NULL PRIMARY KEY,
+  name varchar(50) NOT NULL
+);
+
+
+CREATE TABLE comment (
+  id_comment serial NOT NULL PRIMARY KEY,
+  id_course integer NOT NULL,
+  id_app_user integer NOT NULL,
+  text text NOT NULL
+);
+
+
+CREATE TABLE consultation_employee (
+  id_consultation_employee serial NOT NULL PRIMARY KEY,
+  id_employee integer NOT NULL,
+  id_consultation integer NOT NULL,
+  count smallint NOT NULL
+);
+
+
+CREATE TABLE consultation (
+  id_consultation serial NOT NULL PRIMARY KEY,
+  data date NOT NULL,
+  duration time NOT NULL,
+  name varchar(50) NOT NULL
+);
+
+
+CREATE TABLE consultation_app_user (
+  id_consultation_app_user serial NOT NULL PRIMARY KEY,
+  id_consultation integer NOT NULL,
+  id_app_user integer NOT NULL
+);
+
+
+CREATE TABLE employee_request (
+  id_employee_request serial NOT NULL PRIMARY KEY,
+  id_employee integer NOT NULL,
+  id_request integer NOT NULL
+);
+
+
+ALTER TABLE comment ADD CONSTRAINT comment_id_course_fk FOREIGN KEY (id_course) REFERENCES course (id_course);
+ALTER TABLE comment ADD CONSTRAINT comment_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE consultation_employee ADD CONSTRAINT consultation_employee_id_consultation_fk FOREIGN KEY (id_consultation) REFERENCES consultation (id_consultation);
+ALTER TABLE consultation_employee ADD CONSTRAINT consultation_employee_id_employee_fk FOREIGN KEY (id_employee) REFERENCES employee (id_employee);
+ALTER TABLE consultation_request ADD CONSTRAINT consultation_request_id_consultation_fk FOREIGN KEY (id_consultation) REFERENCES consultation (id_consultation);
+ALTER TABLE consultation_request ADD CONSTRAINT consultation_request_id_request_fk FOREIGN KEY (id_request) REFERENCES request (id_request);
+ALTER TABLE consultation_app_user ADD CONSTRAINT consultation_user_id_consultation_fk FOREIGN KEY (id_consultation) REFERENCES consultation (id_consultation);
+ALTER TABLE consultation_app_user ADD CONSTRAINT consultation_user_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE course_request ADD CONSTRAINT course_request_id_course_fk FOREIGN KEY (id_course) REFERENCES course (id_course);
+ALTER TABLE course_request ADD CONSTRAINT course_request_id_request_fk FOREIGN KEY (id_request) REFERENCES request (id_request);
+ALTER TABLE employee_course ADD CONSTRAINT employee_course_id_course_fk FOREIGN KEY (id_course) REFERENCES course (id_course);
+ALTER TABLE employee_course ADD CONSTRAINT employee_course_id_employee_fk FOREIGN KEY (id_employee) REFERENCES employee (id_employee);
+ALTER TABLE employee ADD CONSTRAINT employee_id_post_fk FOREIGN KEY (id_post) REFERENCES post (id_post);
+ALTER TABLE employee_request ADD CONSTRAINT employee_request_id_employee_fk FOREIGN KEY (id_employee) REFERENCES employee (id_employee);
+ALTER TABLE employee_request ADD CONSTRAINT employee_request_id_request_fk FOREIGN KEY (id_request) REFERENCES request (id_request);
+ALTER TABLE message ADD CONSTRAINT message_id_support_chat_fk FOREIGN KEY (id_support_chat) REFERENCES support_chat (id_support_chat);
+ALTER TABLE request ADD CONSTRAINT request_id_transaction_fk FOREIGN KEY (id_transaction) REFERENCES transaction (id_transaction);
+ALTER TABLE request ADD CONSTRAINT request_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE request_loyalty_card ADD CONSTRAINT request_loyalty_card_id_loyalty_card_fk FOREIGN KEY (id_loyalty_card) REFERENCES loyalty_card (id_loyalty_card);
+ALTER TABLE request_loyalty_card ADD CONSTRAINT request_loyalty_card_id_request_fk FOREIGN KEY (id_request) REFERENCES request (id_request);
+ALTER TABLE support_chat ADD CONSTRAINT support_chat_id_employee_fk FOREIGN KEY (id_employee) REFERENCES employee (id_employee);
+ALTER TABLE support_chat ADD CONSTRAINT support_chat_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE transaction ADD CONSTRAINT transaction_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE user_course ADD CONSTRAINT user_course_id_cousre_fk FOREIGN KEY (id_course) REFERENCES course (id_course);
+ALTER TABLE user_course ADD CONSTRAINT user_course_id_user_fk FOREIGN KEY (id_app_user) REFERENCES app_user (id_app_user);
+ALTER TABLE app_user ADD CONSTRAINT user_id_user_fk FOREIGN KEY (id_app_user) REFERENCES loyalty_card (id_app_user);
